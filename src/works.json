@@ -1,0 +1,559 @@
+[
+  {
+    "id": "g1",
+    "title": "产品动画",
+    "en": "PRODUCT ANIMATION",
+    "kind": "video",
+    "items": [
+      {
+        "id": "g1-01",
+        "name": "通用_产品动画_001",
+        "src": "/media/product-film.mp4",
+        "thumb": "/media/works/g1-01-poster.jpg",
+        "mime": "video/mp4",
+        "source": "视频/通用/通用_产品动画_001.mp4"
+      },
+      {
+        "id": "g1-02",
+        "name": "通用_产品动画_002",
+        "src": "/media/works/g1-02.mp4",
+        "thumb": "/media/works/g1-02-poster.jpg",
+        "mime": "video/mp4",
+        "source": "视频/通用/通用_产品动画_002.mp4",
+        "preview": "/media/works/g1-02-preview.mp4"
+      },
+      {
+        "id": "g1-03",
+        "name": "通用_产品动画_003",
+        "src": "/media/works/g1-03.mp4",
+        "thumb": "/media/works/g1-03-poster.jpg",
+        "mime": "video/mp4",
+        "source": "视频/通用/通用_产品动画_003.mp4",
+        "preview": "/media/works/g1-03-preview.mp4"
+      }
+    ],
+    "coverIndex": 0,
+    "order": 1
+  },
+  {
+    "id": "g2",
+    "title": "PV",
+    "en": "PROMOTIONAL FILM",
+    "kind": "video",
+    "items": [
+      {
+        "id": "g2-01",
+        "name": "母婴_宣传片_001",
+        "src": "/media/works/g2-01.mp4",
+        "thumb": "/media/works/g2-01-poster.jpg",
+        "mime": "video/mp4",
+        "source": "图片/PV/母婴_宣传片_001.mp4"
+      },
+      {
+        "id": "g2-02",
+        "name": "母婴_宣传片_002",
+        "src": "/media/works/g2-02.mp4",
+        "thumb": "/media/works/g2-02-poster.jpg",
+        "mime": "video/mp4",
+        "source": "图片/PV/母婴_宣传片_002.mp4"
+      },
+      {
+        "id": "g2-03",
+        "name": "母婴_宣传片_003",
+        "src": "/media/works/g2-03.mp4",
+        "thumb": "/media/works/g2-03-poster.jpg",
+        "mime": "video/mp4",
+        "source": "图片/PV/母婴_宣传片_003.mp4"
+      },
+      {
+        "id": "g2-04",
+        "name": "母婴_宣传片_004",
+        "src": "/media/works/g2-04.mp4",
+        "thumb": "/media/works/g2-04-poster.jpg",
+        "mime": "video/mp4",
+        "source": "图片/PV/母婴_宣传片_004.mp4"
+      }
+    ],
+    "coverIndex": 0,
+    "order": 2
+  },
+  {
+    "id": "g7",
+    "title": "首页",
+    "en": "ECOMMERCE DESIGN",
+    "kind": "image",
+    "items": [
+      {
+        "id": "g7-01",
+        "name": "母婴_首页_001",
+        "src": "/media/works/g7-01.webp",
+        "thumb": "/media/works/g7-01-thumb.webp",
+        "width": 900,
+        "height": 1600,
+        "source": "图片/首页/母婴_首页_001.png",
+        "preview": "/media/works/g7-01-preview.webp"
+      },
+      {
+        "id": "g7-02",
+        "name": "母婴_首页_002",
+        "src": "/media/works/g7-02.webp",
+        "thumb": "/media/works/g7-02-thumb.webp",
+        "width": 893,
+        "height": 1600,
+        "source": "图片/首页/母婴_首页_002.png",
+        "preview": "/media/works/g7-02-preview.webp"
+      },
+      {
+        "id": "g7-03",
+        "name": "母婴_首页_003",
+        "src": "/media/works/g7-03.webp",
+        "thumb": "/media/works/g7-03-thumb.webp",
+        "width": 1112,
+        "height": 2000,
+        "source": "图片/首页/母婴_首页_003.jpg",
+        "preview": "/media/works/g7-03-preview.webp"
+      },
+      {
+        "id": "g7-04",
+        "name": "货架_首页_001",
+        "src": "/media/works/g7-04.webp",
+        "thumb": "/media/works/g7-04-thumb.webp",
+        "width": 1920,
+        "height": 1080,
+        "source": "图片/首页/货架_首页_001.png",
+        "preview": "/media/works/g7-04-preview.webp"
+      },
+      {
+        "id": "g7-05",
+        "name": "通用_首页_001",
+        "src": "/media/works/g7-05.webp",
+        "thumb": "/media/works/g7-05-thumb.webp",
+        "width": 1920,
+        "height": 1080,
+        "source": "图片/首页/通用_首页_001.png",
+        "preview": "/media/works/g7-05-preview.webp"
+      },
+      {
+        "id": "g7-06",
+        "name": "通用_首页_002",
+        "src": "/media/works/g7-06.webp",
+        "thumb": "/media/works/g7-06-thumb.webp",
+        "width": 1920,
+        "height": 1080,
+        "source": "图片/首页/通用_首页_002.png",
+        "preview": "/media/works/g7-06-preview.webp"
+      }
+    ],
+    "coverIndex": 3,
+    "order": 3
+  },
+  {
+    "id": "g6",
+    "title": "母婴",
+    "en": "MOTHER & BABY",
+    "kind": "image",
+    "items": [
+      {
+        "id": "g6-01",
+        "name": "母婴_渲染图_001",
+        "src": "/media/works/g6-01.webp",
+        "thumb": "/media/works/g6-01-thumb.webp",
+        "width": 1792,
+        "height": 2400,
+        "source": "图片/母婴/母婴_渲染图_001.png",
+        "preview": "/media/works/g6-01-preview.webp"
+      },
+      {
+        "id": "g6-02",
+        "name": "母婴_渲染图_002",
+        "src": "/media/works/g6-02.webp",
+        "thumb": "/media/works/g6-02-thumb.webp",
+        "width": 1500,
+        "height": 2000,
+        "source": "图片/母婴/母婴_渲染图_002.jpg",
+        "preview": "/media/works/g6-02-preview.webp"
+      },
+      {
+        "id": "g6-03",
+        "name": "母婴_渲染图_003",
+        "src": "/media/works/g6-03.webp",
+        "thumb": "/media/works/g6-03-thumb.webp",
+        "width": 1493,
+        "height": 2000,
+        "source": "图片/母婴/母婴_渲染图_003.png",
+        "preview": "/media/works/g6-03-preview.webp"
+      },
+      {
+        "id": "g6-04",
+        "name": "母婴_渲染图_004",
+        "src": "/media/works/g6-04.webp",
+        "thumb": "/media/works/g6-04-thumb.webp",
+        "width": 1792,
+        "height": 2400,
+        "source": "图片/母婴/母婴_渲染图_004.jpg",
+        "preview": "/media/works/g6-04-preview.webp"
+      },
+      {
+        "id": "g6-05",
+        "name": "母婴_渲染图_005",
+        "src": "/media/works/g6-05.webp",
+        "thumb": "/media/works/g6-05-thumb.webp",
+        "width": 1500,
+        "height": 2000,
+        "source": "图片/母婴/母婴_渲染图_005.png",
+        "preview": "/media/works/g6-05-preview.webp"
+      },
+      {
+        "id": "g6-06",
+        "name": "母婴_渲染图_006",
+        "src": "/media/works/g6-06.webp",
+        "thumb": "/media/works/g6-06-thumb.webp",
+        "width": 1493,
+        "height": 2000,
+        "source": "图片/母婴/母婴_渲染图_006.png",
+        "preview": "/media/works/g6-06-preview.webp"
+      },
+      {
+        "id": "g6-07",
+        "name": "母婴_渲染图_007",
+        "src": "/media/works/g6-07.webp",
+        "thumb": "/media/works/g6-07-thumb.webp",
+        "width": 937,
+        "height": 1255,
+        "source": "图片/母婴/母婴_渲染图_007.png",
+        "preview": "/media/works/g6-07-preview.webp"
+      },
+      {
+        "id": "g6-08",
+        "name": "母婴_渲染图_008",
+        "src": "/media/works/g6-08.webp",
+        "thumb": "/media/works/g6-08-thumb.webp",
+        "width": 1500,
+        "height": 2000,
+        "source": "图片/母婴/母婴_渲染图_008.png",
+        "preview": "/media/works/g6-08-preview.webp"
+      },
+      {
+        "id": "g6-09",
+        "name": "母婴_渲染图_009",
+        "src": "/media/works/g6-09.webp",
+        "thumb": "/media/works/g6-09-thumb.webp",
+        "width": 1792,
+        "height": 2400,
+        "source": "图片/母婴/母婴_渲染图_009.png",
+        "preview": "/media/works/g6-09-preview.webp"
+      }
+    ],
+    "coverIndex": 0,
+    "order": 4
+  },
+  {
+    "id": "g5",
+    "title": "家具",
+    "en": "FURNITURE VISUALS",
+    "kind": "image",
+    "items": [
+      {
+        "id": "g5-01",
+        "name": "家具_渲染图_001",
+        "src": "/media/works/g5-01.webp",
+        "thumb": "/media/works/g5-01-thumb.webp",
+        "width": 2100,
+        "height": 3000,
+        "source": "图片/家具/家具_渲染图_001.jpg",
+        "preview": "/media/works/g5-01-preview.webp"
+      },
+      {
+        "id": "g5-02",
+        "name": "家具_渲染图_002",
+        "src": "/media/works/g5-02.webp",
+        "thumb": "/media/works/g5-02-thumb.webp",
+        "width": 2000,
+        "height": 3142,
+        "source": "图片/家具/家具_渲染图_002.png",
+        "preview": "/media/works/g5-02-preview.webp"
+      },
+      {
+        "id": "g5-03",
+        "name": "家具_渲染图_003",
+        "src": "/media/works/g5-03.webp",
+        "thumb": "/media/works/g5-03-thumb.webp",
+        "width": 2000,
+        "height": 3285,
+        "source": "图片/家具/家具_渲染图_003.png",
+        "preview": "/media/works/g5-03-preview.webp"
+      },
+      {
+        "id": "g5-04",
+        "name": "家具_渲染图_004",
+        "src": "/media/works/g5-04.webp",
+        "thumb": "/media/works/g5-04-thumb.webp",
+        "width": 2000,
+        "height": 2000,
+        "source": "图片/家具/家具_渲染图_004.png",
+        "preview": "/media/works/g5-04-preview.webp"
+      },
+      {
+        "id": "g5-05",
+        "name": "家具_渲染图_005",
+        "src": "/media/works/g5-05.webp",
+        "thumb": "/media/works/g5-05-thumb.webp",
+        "width": 2500,
+        "height": 2500,
+        "source": "图片/家具/家具_渲染图_005.png",
+        "preview": "/media/works/g5-05-preview.webp"
+      },
+      {
+        "id": "g5-06",
+        "name": "家具_渲染图_006",
+        "src": "/media/works/g5-06.webp",
+        "thumb": "/media/works/g5-06-thumb.webp",
+        "width": 2500,
+        "height": 2500,
+        "source": "图片/家具/家具_渲染图_006.png",
+        "preview": "/media/works/g5-06-preview.webp"
+      },
+      {
+        "id": "g5-07",
+        "name": "家具_渲染图_007",
+        "src": "/media/works/g5-07.webp",
+        "thumb": "/media/works/g5-07-thumb.webp",
+        "width": 2500,
+        "height": 2500,
+        "source": "图片/家具/家具_渲染图_007.png",
+        "preview": "/media/works/g5-07-preview.webp"
+      },
+      {
+        "id": "g5-08",
+        "name": "家具_渲染图_008",
+        "src": "/media/works/g5-08.webp",
+        "thumb": "/media/works/g5-08-thumb.webp",
+        "width": 2500,
+        "height": 3409,
+        "source": "图片/家具/家具_渲染图_008.png",
+        "preview": "/media/works/g5-08-preview.webp"
+      },
+      {
+        "id": "g5-09",
+        "name": "家具_渲染图_009",
+        "src": "/media/works/g5-09.webp",
+        "thumb": "/media/works/g5-09-thumb.webp",
+        "width": 2500,
+        "height": 3409,
+        "source": "图片/家具/家具_渲染图_009.png",
+        "preview": "/media/works/g5-09-preview.webp"
+      }
+    ],
+    "coverIndex": 4,
+    "order": 5
+  },
+  {
+    "id": "g3",
+    "title": "办公椅",
+    "en": "OFFICE SEATING",
+    "kind": "image",
+    "items": [
+      {
+        "id": "g3-01",
+        "name": "办公椅_主图_001",
+        "src": "/media/works/g3-01-051eb0be28d6.webp",
+        "thumb": "/media/works/g3-01-051eb0be28d6-thumb.webp",
+        "width": 2000,
+        "height": 2000,
+        "source": "图片/办公椅/办公椅_主图_001.png",
+        "preview": "/media/works/g3-01-051eb0be28d6-preview.webp",
+        "sourceHash": "051eb0be28d698ced260dd5a478a4c41cd578105cdc0b6756457fa929629239c"
+      },
+      {
+        "id": "g3-02",
+        "name": "办公椅_主图_002",
+        "src": "/media/works/g3-02-86e8db7f70c3.webp",
+        "thumb": "/media/works/g3-02-86e8db7f70c3-thumb.webp",
+        "width": 1666,
+        "height": 2000,
+        "source": "图片/办公椅/办公椅_主图_002.png",
+        "preview": "/media/works/g3-02-86e8db7f70c3-preview.webp",
+        "sourceHash": "86e8db7f70c31b20043990a8b067fcb52d4f3a21491e89d81119903044cd6709"
+      },
+      {
+        "id": "g3-03",
+        "name": "办公椅_主图_003",
+        "src": "/media/works/g3-03-afd4d3aaac40.webp",
+        "thumb": "/media/works/g3-03-afd4d3aaac40-thumb.webp",
+        "width": 2700,
+        "height": 3600,
+        "source": "图片/办公椅/办公椅_主图_003.png",
+        "preview": "/media/works/g3-03-afd4d3aaac40-preview.webp",
+        "sourceHash": "afd4d3aaac401d5ef16e328201a31bd77cf95b5e514a44f7d5ffbe5e4f826f4a"
+      },
+      {
+        "id": "g3-08",
+        "name": "办公椅_主图_004",
+        "src": "/media/works/g3-08-5fa2472d878e.webp",
+        "thumb": "/media/works/g3-08-5fa2472d878e-thumb.webp",
+        "preview": "/media/works/g3-08-5fa2472d878e-preview.webp",
+        "width": 3000,
+        "height": 3000,
+        "source": "图片/办公椅/办公椅_主图_004.png",
+        "sourceHash": "5fa2472d878e5409bb07e1265e1872bc179f7edeaa622aa623cb5c991ce9e004"
+      },
+      {
+        "id": "g3-09",
+        "name": "办公椅_主图_005",
+        "src": "/media/works/g3-09-474cccfdeb95.webp",
+        "thumb": "/media/works/g3-09-474cccfdeb95-thumb.webp",
+        "preview": "/media/works/g3-09-474cccfdeb95-preview.webp",
+        "width": 2000,
+        "height": 2000,
+        "source": "图片/办公椅/办公椅_主图_005.png",
+        "sourceHash": "474cccfdeb952246a45d298a3287ae06826444f68ed1cae7852cd835637925ad"
+      },
+      {
+        "id": "g3-04",
+        "name": "办公椅_渲染图_001",
+        "src": "/media/works/g3-04-a7c3560f1286.webp",
+        "thumb": "/media/works/g3-04-a7c3560f1286-thumb.webp",
+        "width": 1920,
+        "height": 1080,
+        "source": "图片/办公椅/办公椅_渲染图_001.png",
+        "preview": "/media/works/g3-04-a7c3560f1286-preview.webp",
+        "sourceHash": "a7c3560f1286f0cf61dd4837bc19f5a74a51c4ca506c0f866ce7239e1e05d0e1"
+      },
+      {
+        "id": "g3-05",
+        "name": "办公椅_渲染图_002",
+        "src": "/media/works/g3-05-5ade5552f198.webp",
+        "thumb": "/media/works/g3-05-5ade5552f198-thumb.webp",
+        "width": 1280,
+        "height": 1920,
+        "source": "图片/办公椅/办公椅_渲染图_002.png",
+        "preview": "/media/works/g3-05-5ade5552f198-preview.webp",
+        "sourceHash": "5ade5552f1981b50ec2b608819c1c9fb6a7e40810434066dea7f8bf86959c6c7"
+      },
+      {
+        "id": "g3-06",
+        "name": "办公椅_渲染图_003",
+        "src": "/media/works/g3-06-9ec45f713300.webp",
+        "thumb": "/media/works/g3-06-9ec45f713300-thumb.webp",
+        "width": 1920,
+        "height": 1080,
+        "source": "图片/办公椅/办公椅_渲染图_003.png",
+        "preview": "/media/works/g3-06-9ec45f713300-preview.webp",
+        "sourceHash": "9ec45f713300672e1771a962d5ab1a1df24328f8d342857f8a9c5ebdb9dee3b3"
+      },
+      {
+        "id": "g3-07",
+        "name": "办公椅_渲染图_004",
+        "src": "/media/works/g3-07-47b4a4c992fc.webp",
+        "thumb": "/media/works/g3-07-47b4a4c992fc-thumb.webp",
+        "width": 1280,
+        "height": 1980,
+        "source": "图片/办公椅/办公椅_渲染图_004.png",
+        "preview": "/media/works/g3-07-47b4a4c992fc-preview.webp",
+        "sourceHash": "47b4a4c992fcf012fa6bf8ad59167e242b1a075edb18e555d15be461148484c4"
+      }
+    ],
+    "coverIndex": 5,
+    "order": 6
+  },
+  {
+    "id": "g4",
+    "title": "货架",
+    "en": "SHELVING SYSTEMS",
+    "kind": "image",
+    "items": [
+      {
+        "id": "g4-01",
+        "name": "货架_渲染图_001",
+        "src": "/media/works/g4-01.webp",
+        "thumb": "/media/works/g4-01-thumb.webp",
+        "width": 2000,
+        "height": 2000,
+        "source": "图片/货架/货架_渲染图_001.png",
+        "preview": "/media/works/g4-01-preview.webp"
+      },
+      {
+        "id": "g4-02",
+        "name": "货架_渲染图_002",
+        "src": "/media/works/g4-02.webp",
+        "thumb": "/media/works/g4-02-thumb.webp",
+        "width": 1500,
+        "height": 1500,
+        "source": "图片/货架/货架_渲染图_002.png",
+        "preview": "/media/works/g4-02-preview.webp"
+      },
+      {
+        "id": "g4-03",
+        "name": "货架_渲染图_003",
+        "src": "/media/works/g4-03.webp",
+        "thumb": "/media/works/g4-03-thumb.webp",
+        "width": 1500,
+        "height": 1500,
+        "source": "图片/货架/货架_渲染图_003.png",
+        "preview": "/media/works/g4-03-preview.webp"
+      },
+      {
+        "id": "g4-04",
+        "name": "货架_渲染图_004",
+        "src": "/media/works/g4-04.webp",
+        "thumb": "/media/works/g4-04-thumb.webp",
+        "width": 2500,
+        "height": 2500,
+        "source": "图片/货架/货架_渲染图_004.png",
+        "preview": "/media/works/g4-04-preview.webp"
+      },
+      {
+        "id": "g4-05",
+        "name": "货架_渲染图_006",
+        "src": "/media/works/g4-05.webp",
+        "thumb": "/media/works/g4-05-thumb.webp",
+        "width": 1144,
+        "height": 1375,
+        "source": "图片/货架/货架_渲染图_006.png",
+        "preview": "/media/works/g4-05-preview.webp"
+      },
+      {
+        "id": "g4-06",
+        "name": "货架_渲染图_007",
+        "src": "/media/works/g4-06.webp",
+        "thumb": "/media/works/g4-06-thumb.webp",
+        "width": 1500,
+        "height": 1500,
+        "source": "图片/货架/货架_渲染图_007.png",
+        "preview": "/media/works/g4-06-preview.webp"
+      },
+      {
+        "id": "g4-07",
+        "name": "货架_渲染图_008",
+        "src": "/media/works/g4-07.webp",
+        "thumb": "/media/works/g4-07-thumb.webp",
+        "width": 2000,
+        "height": 3333,
+        "source": "图片/货架/货架_渲染图_008.png",
+        "preview": "/media/works/g4-07-preview.webp"
+      },
+      {
+        "id": "g4-08",
+        "name": "货架_渲染图_009",
+        "src": "/media/works/g4-08.webp",
+        "thumb": "/media/works/g4-08-thumb.webp",
+        "width": 1500,
+        "height": 1500,
+        "source": "图片/货架/货架_渲染图_009.png",
+        "preview": "/media/works/g4-08-preview.webp"
+      },
+      {
+        "id": "g4-09",
+        "name": "货架_渲染图_010",
+        "src": "/media/works/g4-09.webp",
+        "thumb": "/media/works/g4-09-thumb.webp",
+        "width": 2000,
+        "height": 2000,
+        "source": "图片/货架/货架_渲染图_010.jpg",
+        "preview": "/media/works/g4-09-preview.webp"
+      }
+    ],
+    "coverIndex": 1,
+    "order": 7
+  }
+]

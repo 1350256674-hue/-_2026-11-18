@@ -1,0 +1,8 @@
+.gradual-blur {
+  pointer-events: none;
+}
+
+/* Keep playback controls crisp above the first-screen blur ramp. */
+.hero .hero-player-bar{z-index:35}
+@media(max-width:760px){.hero .hero-gradual-blur{height:110px!important}.page-gradual-blur{height:52px!important}}
+@supports not (backdrop-filter:blur(1px)){.gradual-blur{background:linear-gradient(to top,rgba(12,13,14,.35),transparent)}}

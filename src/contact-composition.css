@@ -1,0 +1,18 @@
+.contact.contact-rebalanced{min-height:100svh}
+.contact-rebalanced>.contact-inner{min-height:100svh;padding-top:42px}
+.contact-rebalanced .section-kicker{margin-bottom:0}
+.contact-rebalanced .contact-composition{display:flex;flex:1;flex-direction:column;align-items:center;justify-content:center;min-height:620px;padding:85px 0 90px;text-align:center}
+.contact.contact-rebalanced .motion-heading{width:100%;margin:0 0 29px;font-size:clamp(30px,3.2vw,50px);font-weight:300;line-height:1.15;letter-spacing:-.045em;text-align:center!important;color:#c6c7c2}
+.contact.contact-rebalanced h2.contact-message{display:flex;align-items:baseline;justify-content:center;gap:.27em;flex-wrap:wrap;margin:0;font-size:clamp(54px,6vw,100px);font-weight:400;line-height:1.3;letter-spacing:-.055em;color:#edebe4}
+.contact-rebalanced h2.contact-message>.split-parent{position:static;inset:auto;font-size:inherit;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit}
+.contact-rebalanced h2.contact-message>.contact-emphasis{color:var(--accent)}
+.contact-rebalanced .contact-connect{display:flex;flex-direction:column;align-items:center;justify-content:center;margin-top:30px;text-align:center}
+.contact-rebalanced .contact-connect>p{margin:0;color:#929b9c;font-size:13px;line-height:2;letter-spacing:1.5px}
+.contact-rebalanced .contact-actions{display:flex;align-items:stretch;justify-content:center;flex-wrap:wrap;gap:15px;width:auto;margin-top:34px}
+.contact-rebalanced .contact-cta{min-width:230px;padding:16px 22px;gap:30px;font-size:12px;line-height:1.5}
+.contact-rebalanced .contact-cta>span{font-size:22px;line-height:1}
+.contact-rebalanced .contact-actions button{display:flex;align-items:center;justify-content:center;gap:24px;width:auto;margin:0;padding:16px 20px;border-color:#ffffff25;background:#ffffff03;color:#b1b4af;font-size:10px;line-height:1.5}
+.contact-rebalanced .contact-actions button:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.contact-rebalanced .site-footer{width:100%;padding:25px 0;color:#6c777c;border-top-color:#ffffff18}
+@media(max-width:1100px){.contact-rebalanced .contact-composition{min-height:570px;padding:75px 0 80px}.contact.contact-rebalanced h2.contact-message{font-size:clamp(51px,6.3vw,75px)}}
+@media(max-width:760px){.contact-rebalanced>.contact-inner{padding-top:30px}.contact-rebalanced .section-kicker{gap:18px;font-size:7px}.contact-rebalanced .section-kicker>span:last-child{font-size:8px;letter-spacing:.3px;max-width:155px;text-align:right;line-height:1.8}.contact-rebalanced .contact-composition{min-height:600px;padding:65px 0 70px}.contact.contact-rebalanced .motion-heading{font-size:30px;margin-bottom:27px}.contact.contact-rebalanced h2.contact-message{flex-direction:column;align-items:center;gap:.08em;font-size:clamp(50px,12vw,74px);line-height:1.18;letter-spacing:-.05em}.contact-rebalanced .contact-connect{margin-top:27px}.contact-rebalanced .contact-connect>p{font-size:11px;letter-spacing:1px}.contact-rebalanced .contact-actions{width:min(310px,100%);margin-top:29px;flex-direction:column;gap:12px}.contact-rebalanced .contact-cta{width:100%;min-width:0;font-size:11px;padding:16px 20px}.contact-rebalanced .contact-actions button{width:100%;font-size:9px;padding:14px 18px}.contact-rebalanced .site-footer{padding:24px 0;font-size:6px}}

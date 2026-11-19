@@ -1,0 +1,6 @@
+.portfolio-with-particles .contact.contact-with-lightfall{isolation:isolate;background:#101112}
+.contact-lightfall-background{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;background:radial-gradient(ellipse at 60% 0%,#83787112,transparent 65%)}
+.contact-lightfall-field{position:absolute!important;inset:0;pointer-events:none}
+.contact-with-lightfall:after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(ellipse at 50% 48%,#101112a6, #10111226 70%,transparent),linear-gradient(180deg,#10111226,transparent 35%,#10111259 75%,#101112d9 100%)}
+.contact-with-lightfall>.contact-inner{position:relative;z-index:2}
+@media(max-width:760px){.contact-with-lightfall:after{background:radial-gradient(ellipse at 50% 45%,#101112b3,#10111233 85%),linear-gradient(180deg,#10111226,transparent 30%,#101112c9 100%)}}

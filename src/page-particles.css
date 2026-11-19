@@ -1,0 +1,9 @@
+.page-particles{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none;opacity:0;transition:opacity 1.2s cubic-bezier(.22,1,.36,1);background:#0c0d0e}
+.page-particles.is-active{opacity:1}
+.page-particles-field{position:absolute!important;inset:0;pointer-events:none}
+.page-particles:after{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,transparent 20%,#0c0d0e66 100%)}
+main.portfolio-with-particles{position:relative;z-index:1}
+.portfolio-with-particles .work{background:rgba(17,19,21,.36)}
+.portfolio-with-particles .contact{background:rgba(21,17,17,.5)}
+.portfolio-with-particles .discipline-strip{background:rgba(17,19,21,.82)}
+@media(prefers-reduced-motion:reduce){.page-particles{transition:none}}

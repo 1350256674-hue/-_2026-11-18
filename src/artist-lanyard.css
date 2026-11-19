@@ -1,0 +1,22 @@
+.portrait-panel.lanyard-portrait{position:relative;isolation:isolate;height:640px;min-height:0;max-width:none;width:100%;border:0;border-radius:12px;overflow:hidden;background:radial-gradient(ellipse at 50% 48%,#24202070,transparent 65%)}
+.portrait-panel.lanyard-portrait:after{display:none}
+.lanyard-annotation{position:absolute;inset:20px 24px auto;z-index:2;display:flex;justify-content:space-between;gap:16px;font-size:8px;letter-spacing:2px;color:#707274;pointer-events:none}
+.lanyard-annotation>span:last-child{color:#ff3825}
+.artist-lanyard-scene{position:absolute!important;inset:0;z-index:1;opacity:0;transition:opacity .55s ease}
+.is-ready .artist-lanyard-scene{opacity:1}
+.artist-lanyard-scene:focus-visible{outline:1px solid #ff3825;outline-offset:-5px;border-radius:12px}
+.lanyard-static{position:absolute;inset:0;pointer-events:none;transition:opacity .5s ease}
+.is-ready .lanyard-static{opacity:0;visibility:hidden}
+.lanyard-static-band{position:absolute;top:0;left:calc(50% - 12px);width:24px;height:28%;background:#ff3825;border-left:1px dashed #1117;border-right:1px dashed #1117}
+.lanyard-static-band{display:flex;align-items:center;justify-content:center;overflow:hidden}
+.lanyard-static-band>span{writing-mode:vertical-rl;color:#18191a;font-family:Arial,sans-serif;font-size:17px;font-weight:900;letter-spacing:2px;white-space:nowrap}
+.lanyard-static-clamp,.lanyard-static-ring{position:absolute;left:50%;z-index:2;transform:translateX(-50%);pointer-events:none}
+.lanyard-static-clamp{top:calc(23% - 45px);width:32px;height:21px;border:1px solid #dde1e5;border-radius:5px;background:linear-gradient(120deg,#a4abb2,#737a83 55%,#969da7);box-shadow:inset 0 0 0 2px #484d52,0 2px 4px #0008}
+.lanyard-static-ring{top:calc(23% - 25px);width:21px;height:36px;border:3px solid #c5cbd0;border-radius:50%;box-shadow:inset 1px 0 1px #fff9,1px 2px 3px #000b}
+.portrait-panel.lanyard-portrait .lanyard-static>img{position:absolute;top:23%;left:50%;width:auto;height:58%;max-width:72%;border-radius:12px;opacity:1;filter:none;mix-blend-mode:normal;transform:translateX(-50%) rotate(-5deg);box-shadow:0 24px 45px #0007}
+.lanyard-instruction{position:absolute;bottom:20px;left:24px;right:24px;z-index:2;display:flex;gap:12px;align-items:center;font-size:10px;letter-spacing:1px;color:#b2afaa;pointer-events:none}
+.lanyard-instruction small{display:block;font-size:8px;letter-spacing:.7px;color:#66696b;margin-top:6px}
+.lanyard-coordinate{font-size:8px;letter-spacing:2px;color:#686b6e;margin-left:auto}
+@media(max-width:1100px){.portrait-panel.lanyard-portrait{height:600px}}
+@media(max-width:760px){.portrait-panel.lanyard-portrait{height:560px;max-width:none}.lanyard-annotation{inset:16px 16px auto;font-size:7px;letter-spacing:1.5px}.lanyard-instruction{left:16px;right:16px;bottom:15px;font-size:9px}.lanyard-coordinate{font-size:7px}}
+@media(prefers-reduced-motion:reduce){.artist-lanyard-scene,.lanyard-static{transition:none}}

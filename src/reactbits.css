@@ -1,0 +1,16 @@
+/* Tailwind utilities for registry components; retain the portfolio's existing base styles. */
+@layer theme, base, components, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+@theme inline {
+  --color-background: #0c0d0e;
+  --color-foreground: #e9e9e7;
+  --color-primary: var(--accent);
+  --color-primary-foreground: #ffffff;
+  --color-muted: #171819;
+  --color-muted-foreground: #899194;
+  --color-border: #ffffff26;
+  --radius-lg: 0.75rem;
+  --radius-md: 0.5rem;
+}

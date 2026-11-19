@@ -1,0 +1,56 @@
+/* The title red is the single accent throughout the portfolio. */
+:root{--accent:#ff3825;--hero-accent:var(--accent);--ice:var(--accent);--button-radius:8px}
+.header.header-floating{position:fixed;z-index:40;top:14px;left:0;right:0;margin:0 auto;width:calc(100% - 48px);max-width:1700px;height:64px;padding:0 28px;border:1px solid #ffffff24;border-radius:16px;background:rgba(20,20,20,.68);-webkit-backdrop-filter:blur(24px) saturate(135%);backdrop-filter:blur(24px) saturate(135%);box-shadow:0 8px 32px #0005,inset 0 1px 0 #ffffff0a;animation:nav-appear .25s ease-out}
+.header-floating .contact-pill{background:#ffffff08}
+@keyframes nav-appear{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+@supports not (backdrop-filter:blur(1px)){.header.header-floating{background:rgba(20,20,20,.94)}}
+@media(max-width:760px){.header.header-floating{top:10px;width:calc(100% - 24px);height:62px;padding:0 15px;border-radius:12px}.header-floating .menu-button{right:12px}.header-floating nav{top:72px;right:0;border-radius:12px;background:rgba(20,20,20,.92);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px)}}
+::selection{background:var(--accent);color:#fff}
+a,button{transition:color .22s ease,background-color .22s ease,border-color .22s ease,box-shadow .22s ease}
+.hero-editorial-top{mix-blend-mode:screen;opacity:.86}
+.hero-title-line{justify-content:flex-start}
+.hero-editorial h1{font-size:clamp(100px,19vw,340px);width:max-content;max-width:none;white-space:nowrap;text-align:left;letter-spacing:-.075em;transform:scaleX(.84);transform-origin:left center;margin-left:-.035em}
+.hero-under-title{display:none}
+.header .brand-mark>span,.header nav a.active,.header nav a:hover{color:var(--accent)}
+.header .contact-pill{border:1px solid #ffffff35;padding:10px 15px;border-radius:var(--button-radius);background:#ffffff06;backdrop-filter:blur(12px)}
+.header .contact-pill:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.hero-project-cta{border-radius:var(--button-radius);background:#eee9d5;color:#151515}
+.hero-project-cta:hover{background:var(--accent);color:#fff}
+.hero-project-cta>span{transition:transform .22s ease}
+.hero-project-cta:hover>span{transform:translate(2px,-2px)}
+.play-control{border-radius:var(--button-radius);padding:9px 12px!important}
+.play-control:hover{background:var(--accent);color:#fff}
+.play-control:hover span{color:#fff}
+.menu-button{border-radius:6px}
+.menu-button:hover{background:var(--accent);color:#fff}
+.status-dot{box-shadow:0 0 10px #ff382555}
+.section-kicker>span:first-child,.stats strong,.ability-top>span{color:var(--accent)}
+.discipline-strip i{color:var(--accent)}
+.about-links a:hover,.text-link:hover,.work-end a:hover,.site-footer a:hover,.hero-player-bar>a:hover{color:var(--accent);border-color:var(--accent)}
+.filters button{border-radius:var(--button-radius)}
+.filters button.selected{background:var(--accent);border-color:var(--accent);color:white}
+.filters button.selected sup{color:#ffffffa8}
+.filters button:hover{background:var(--accent);border-color:var(--accent);color:white}
+.filters button:hover sup{color:#ffffffa8}
+.project-image,.portrait-panel{border-radius:12px}
+.project-card:hover .project-arrow{background:var(--accent);border-color:var(--accent);color:white}
+.project-card:hover .project-meta h3{color:var(--accent)}
+.project-meta h3{transition:color .22s ease}
+.ability:hover{background:#201615}
+.ability:hover .ability-top>small{color:var(--accent)}
+.contact{background:#151111}
+.contact-orb{border-color:#ff382524;box-shadow:inset 0 0 100px #ff382508,0 0 150px #ff382504}
+.contact-orb:before,.contact-orb:after{border-color:#ff38251a}
+.contact h2>span:first-child{color:var(--accent)}
+.contact h2>span:last-child{color:var(--accent)}
+.contact-cta{border-radius:var(--button-radius);background:var(--accent);color:#fff}
+.contact-cta:hover{background:#eee9d5;color:#151515}
+.contact-actions button{border-radius:var(--button-radius);padding:13px 15px;margin-top:10px;border:1px solid #ffffff20;color:#a59a98}
+.contact-actions button:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.dialog-close:hover{background:var(--accent);color:#fff}
+.project-dialog{border-radius:12px}
+.toast{background:var(--accent);color:#fff;border-radius:var(--button-radius)}
+@media(min-width:1900px){.hero-editorial h1{font-size:340px}}
+@media(max-width:1100px){.hero-editorial h1{font-size:19vw}}
+@media(max-width:760px){.hero-editorial h1{font-size:21vw;transform:scaleX(.84);letter-spacing:-.075em}.header .contact-pill{padding:8px 10px;gap:10px}.header .menu-button{top:18px;padding:4px}.hero-editorial-top{padding-top:95px}.hero-project-cta{padding:14px 16px}}
+@media(prefers-reduced-motion:reduce){a,button,.hero-project-cta>span,.project-meta h3{transition:none}}

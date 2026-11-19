@@ -1,0 +1,48 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {transformSync} from 'esbuild';
+const source=fs.readFileSync(new URL('../src/visualWarmup.js',import.meta.url),'utf8');
+const code=transformSync(source,{format:'cjs'}).code;
+const events=()=>({handlers:new Map(),addEventListener(k,v){this.handlers.set(k,v);},removeEventListener(k){this.handlers.delete(k);}});
+let now=0,id=0;
+const timers=new Map();
+const later=(fn,delay)=>{timers.set(++id,{at:now+delay,fn});return id;};
+const cancel=id=>timers.delete(id);
+const documentMock={...events(),hidden:false};
+const windowMock={...events(),requestIdleCallback:fn=>later(()=>fn({timeRemaining:()=>16}),1),cancelIdleCallback:cancel};
+const module={exports:{}};
+new Function('module','exports','window','document','performance','setTimeout','clearTimeout',code)(module,module.exports,windowMock,documentMock,{now:()=>now},later,cancel);
+const queue=module.exports.queueVisualTask;
+const advance=async end=>{
+ while(true){
+  const next=[...timers.entries()].filter(([,t])=>t.at<=end).sort((a,b)=>a[1].at-b[1].at)[0];
+  if(!next)break;
+  now=next[1].at;timers.delete(next[0]);next[1].fn();
+  for(let i=0;i<8;i++)await Promise.resolve();
+ }
+ now=end;
+};
+const started=[];
+queue(()=>started.push({name:'background',at:now}),{priority:10});
+queue(()=>started.push({name:'card',at:now}),{priority:0});
+const stop=queue(()=>{throw new Error('cancelled job ran');});stop();
+await advance(100);windowMock.handlers.get('scroll')();await advance(250);
+assert.equal(started.length,0,'no heavy setup while scrolling or settling');
+await advance(500);assert.deepEqual(started.map(x=>x.name),['card','background']);
+assert(started[1].at-started[0].at>=70,'warmups do not share one frame');
+assert.equal(windowMock.handlers.size,0);assert.equal(documentMock.handlers.size,0);
+queue(()=>started.push({name:'resume',at:now}));
+documentMock.hidden=true;documentMock.handlers.get('visibilitychange')();await advance(1200);
+assert.equal(started.length,2,'hidden tabs do not initialize scenes');
+documentMock.hidden=false;documentMock.handlers.get('visibilitychange')();await advance(1400);
+assert.equal(started.at(-1).name,'resume');
+windowMock.requestIdleCallback=fn=>later(()=>fn({timeRemaining:()=>0,didTimeout:false}),1);
+queue(()=>started.push({name:'starved-browser',at:now}));await advance(2300);
+assert.equal(started.at(-1).name,'starved-browser','perpetual low idle budget cannot leave the card static forever');
+queue(()=>started.push({name:'critical-card',at:now}),{priority:0});await advance(2600);
+assert.equal(started.at(-1).name,'critical-card','foreground card has a shorter bounded wait');
+delete windowMock.requestIdleCallback;
+queue(()=>started.push({name:'fallback',at:now}));await advance(2800);
+assert.equal(started.at(-1).name,'fallback','timer fallback works without requestIdleCallback');
+assert.equal(timers.size,0);assert.equal(windowMock.handlers.size,0);assert.equal(documentMock.handlers.size,0);
+console.log('PASS scroll quiet period, priority, frame spacing, cancellation, hidden tabs, fallback and cleanup');

@@ -1,0 +1,19 @@
+/* Transparent controls retain the colour and detail of the artwork beneath. */
+.card-carousel-controls button,.collection-auto,.collection-toolbar button,.collection-close{
+ background:rgba(255,255,255,.08);
+ border:1px solid rgba(255,255,255,.24);
+ -webkit-backdrop-filter:blur(6px) saturate(115%);
+ backdrop-filter:blur(6px) saturate(115%);
+ box-shadow:inset 0 1px 0 #ffffff12;
+ color:#fff;
+ text-shadow:0 1px 3px #0007;
+ transition:background-color .25s ease,border-color .25s ease,color .25s ease;
+}
+.card-carousel-controls button:hover,.collection-auto:hover,.collection-toolbar button:hover,.collection-close:hover{background:var(--accent);border-color:var(--accent);text-shadow:none}
+.card-carousel-controls .carousel-playback{display:flex;align-items:center;justify-content:center;gap:5px;width:64px}
+.carousel-playback span{font-size:10px;line-height:1;letter-spacing:.5px}
+.carousel-playback svg{flex-shrink:0}
+.collection-auto{display:flex;align-items:center;gap:6px}
+.work-count{background:rgba(255,255,255,.07);border-color:#ffffff38;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);text-shadow:0 1px 3px #0007}
+@media(max-width:760px){.card-carousel-controls .carousel-playback{width:52px;gap:3px}.carousel-playback span{font-size:9px}.carousel-playback svg{width:12px;height:12px}}
+@media(prefers-reduced-motion:reduce){.card-carousel-controls button,.collection-auto,.collection-toolbar button,.collection-close{transition:none}}

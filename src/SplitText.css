@@ -1,0 +1,9 @@
+.split-parent{font-kerning:none}
+.split-parent .split-char,.split-parent .split-word,.split-parent .split-line{transform-origin:50% 100%}
+.split-parent.motion-heading{display:block!important;width:100%;line-height:1.08;word-spacing:.06em;overflow:visible!important}
+.hero-editorial h1.hero-split-title{display:block!important;white-space:nowrap!important;line-height:1;overflow:visible!important}
+.body-copy.split-parent{display:block!important;width:100%}
+.ability h3.split-parent,.accordion-group-title h3.split-parent{display:block!important}
+.contact h2>.split-parent:first-child{color:inherit}
+.contact h2>.contact-emphasis{color:var(--accent)}
+@media(prefers-reduced-motion:reduce){.split-parent{visibility:visible!important}}
